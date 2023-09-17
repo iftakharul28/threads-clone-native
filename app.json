@@ -16,8 +16,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.betomoedano.threads-clone"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
@@ -30,11 +29,16 @@
       "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
-    "experiments": {
-      "typedRoutes": true
+    "extra": {
+      "eas": {
+        "projectId": "9d686ed5-d9c7-425b-957b-b997f2384343"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9d686ed5-d9c7-425b-957b-b997f2384343"
     }
   }
 }
